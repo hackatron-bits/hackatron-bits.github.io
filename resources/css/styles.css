@@ -1,0 +1,50 @@
+:root {
+    --dark-color:#5b5f97;
+    --light-color:#b8b8d1;
+    --lightest-color:#fffffb;
+} 
+
+html , body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif; 
+}
+
+.lead a {
+  background-color: #3770ff;
+}
+
+.lead a:hover{
+  background-color: #0049ff;
+}
+
+.hero-text{
+  margin: 0;
+  position: relative;
+  top:8%;
+}
+
+.lead{
+  margin: 0;
+  position: relative;
+  top:100%;
+}
+
+
+
+.nav-link a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link a:hover{ 
+  width: 100%; 
+  left: 0; 
+}
