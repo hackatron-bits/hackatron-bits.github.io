@@ -11,12 +11,15 @@ html , body{
 }
 
 nav{
-    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     z-index: 1000;
     width: 100%;
+}
+
+.fixed-top{
+  background-color: rgba(91, 95, 151 , 0.4);
 }
 
 .lead a {
@@ -35,12 +38,15 @@ nav{
 
 .lead{
   margin: 0;
-
+  position: relative;
+  top: 15em;
 }
 
+.nav-link{
+  text-align: center;
+}
 
-
-.nav-link a:after {    
+.nav-link a::after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -54,9 +60,15 @@ nav{
 }
 .nav-link a:hover{ 
   width: 100%; 
-  left: 0; 
+  left: 0;
+
 }
 
+@media only screen and (max-width:768px){
+  html , body{
+    font-size: 0.85em;
+  }
+}
 
 
 
@@ -656,8 +668,16 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
-.hack{
-  background-color: rgb(46, 226, 242);
+.about-hackatron{
+  background-color: var(--lightest-color);
+  padding-top: .5em;
+  padding-bottom: 4em;
+}
+
+.about-hackatron img{
+  padding-left: 2em;
+  padding-right: 4em;
+  padding-bottom: 1.5em;
 }
 
 .sec{
