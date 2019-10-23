@@ -39,7 +39,7 @@ nav{
 .lead{
   margin: 0;
   position: relative;
-  top: 15em;
+  top: 10em;
 }
 
 .nav-link{
@@ -64,7 +64,15 @@ nav{
 
 }
 
-@media only screen and (max-width:768px){
+.text-center img{
+  height:15em;
+  width: auto;
+  position: relative;
+  top:5em;
+  align-content: center;
+}
+
+@media only screen and (max-width:980px){
   html , body{
     font-size: 0.85em;
   }
@@ -680,7 +688,16 @@ img {
   padding-bottom: 1.5em;
 }
 
-.sec{
+.mascot{
   background-color: rgb(35, 34, 38);
   color:white;
+}
+
+.mascot img{
+  width:25em; 
+  height:auto;
+  padding-left: 2em;
+  padding-right: 4em;
+  padding-bottom: 1.5em;
+
 }
