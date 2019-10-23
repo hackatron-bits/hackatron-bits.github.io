@@ -37,6 +37,7 @@ nav{
 
 .lead{
   margin: 0;
+  margin-bottom: 3em;
 }
 
 .nav-link{
@@ -95,8 +96,10 @@ nav{
 
 @media only screen and (max-width:980px){
   html , body{
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
+
+
 
   .header-img{
     height: 35vh;
