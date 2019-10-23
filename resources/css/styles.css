@@ -19,7 +19,7 @@ nav{
 }
 
 .fixed-top{
-  background-color: rgba(91, 95, 151 , 0.4);
+  background-color: rgba(91, 95, 151 , 0.9);
 }
 
 .lead a {
@@ -75,6 +75,11 @@ nav{
 @media only screen and (max-width:980px){
   html , body{
     font-size: 0.85em;
+  }
+
+  .text-center img{
+    height: 10em;
+    width: auto;
   }
 }
 
