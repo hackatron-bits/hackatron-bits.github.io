@@ -8,7 +8,7 @@ html , body{
   margin: 0;
   padding: 0;
   font-family: 'Didact Gothic', sans-serif;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 nav{
@@ -101,10 +101,8 @@ nav{
     font-size: 0.85em;
   }
 
-
-
   .header-img{
-    height: 35vh;
+    height: 32vh;
   
   }
 }
@@ -731,4 +729,21 @@ img {
   padding-right: 4em;
   padding-bottom: 1.5em;
 
+}
+
+.sec{
+  background-color: #232226;
+  color: #fffffb;
+}
+
+.prizes{
+  background-color: #232226;
+}
+
+.faq{
+  margin-bottom: 3em;
+}
+
+footer{
+  padding-top:2.5em;
 }
