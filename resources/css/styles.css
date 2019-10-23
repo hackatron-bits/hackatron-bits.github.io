@@ -18,6 +18,10 @@ nav{
     width: 100%;
 }
 
+.top{
+  height: 100vh;
+}
+
 .fixed-top{
   background-color: rgba(91, 95, 151 , 0.9);
 }
@@ -65,10 +69,9 @@ nav{
 }
 
 .text-center img{
-  height:15em;
+  margin:0;
+  height:60vh;
   width: auto;
-  position: relative;
-  top:5em;
   align-content: center;
 }
 
@@ -78,7 +81,7 @@ nav{
   }
 
   .text-center img{
-    height: 10em;
+    height: 40vh;
     width: auto;
   }
 }
