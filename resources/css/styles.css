@@ -88,7 +88,8 @@ nav{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 15s steps(40, end), blink-caret .75s step-end infinite;
+  animation: typing 10s steps(40, end), blink-caret .5s;
+  animation-iteration-count: infinite;
 }
 
 /* The typing effect */
