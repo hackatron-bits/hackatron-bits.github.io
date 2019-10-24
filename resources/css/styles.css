@@ -51,20 +51,6 @@ nav{
   text-align: center;
 }
 
-/*
-.nav-link a::after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-} */
-
 .nav-link:hover{
   border-bottom: .2em solid orange;
 }
@@ -75,10 +61,6 @@ nav{
 
 
 .navbar-collapse.collapse.in {
-  display: block!important;
-}
-
-.collapse.collapse.in{
   display: block!important;
 }
 
