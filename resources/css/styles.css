@@ -64,6 +64,10 @@ nav{
   display: block!important;
 }
 
+.collapse.collapse.in{
+  display: block!important;
+}
+
 .header-content{
 
 }
