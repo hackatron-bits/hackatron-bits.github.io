@@ -68,6 +68,10 @@ nav{
 
 }
 
+.img-fluid{
+  max-height: 45vh;
+}
+
 .header-img{
   position: center;
   height: 45vh;
