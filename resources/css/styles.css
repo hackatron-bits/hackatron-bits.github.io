@@ -4,6 +4,10 @@
     --lightest-color:#fffffb;
 } 
 
+*:not(i){
+  font-family: 'Didact Gothic', sans-serif;
+}
+
 html , body{
   margin: 0;
   padding: 0;
