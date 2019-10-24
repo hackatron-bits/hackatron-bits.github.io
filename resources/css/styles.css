@@ -60,6 +60,10 @@ nav{
   width: 0;
 }
 
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
 .header-content{
 
 }
