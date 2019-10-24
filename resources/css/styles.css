@@ -51,6 +51,7 @@ nav{
   text-align: center;
 }
 
+/*
 .nav-link a::after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -62,7 +63,16 @@ nav{
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+} */
+
+.nav-link:hover{
+  border-bottom: .2em solid orange;
 }
+
+.nav-link.active{
+  border-bottom: .2em solid orange;
+}
+
 
 .navbar-collapse.collapse.in {
   display: block!important;
@@ -92,7 +102,7 @@ nav{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 10s steps(40, end), blink-caret .5s;
+  animation: typing 12s steps(40, end), blink-caret .5s;
   animation-iteration-count: infinite;
 }
 
