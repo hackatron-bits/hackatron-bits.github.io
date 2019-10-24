@@ -751,4 +751,15 @@ img {
 
 footer{
   padding-top:2.5em;
+  text-align: center;
+}
+
+footer a{
+  color: var(--light-color);
+}
+
+footer a:hover{
+  color: var(--lightest-color);
+  text-decoration: none;
+  font-size: 1.2em;
 }
