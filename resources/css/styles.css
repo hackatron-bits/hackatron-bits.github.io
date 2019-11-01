@@ -125,11 +125,11 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #242f3f;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
+  
+  }
 .loader {
   display: inline-block;
   width: 30px;
