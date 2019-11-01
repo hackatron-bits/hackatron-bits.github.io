@@ -15,8 +15,6 @@ $(document).ready(function() {
   });
 });
 
-var overlay = document.getElementById("overlay");
-
-window.addEventListener('load', function(){
-  overlay.style.display = 'none';
-})
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
