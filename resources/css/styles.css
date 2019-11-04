@@ -1,4 +1,5 @@
 :root {
+    --darkest:#232226;
     --dark-color:#2a0268;
     --light-color:#b8b8d1;
     --lightest-color:#fffffb;
@@ -756,8 +757,22 @@ img {
   background-color: #232226;
 }
 
+.sponsors .card{
+  border-color: #fffffb;
+}
+
 .faq{
   margin-bottom: 3em;
+  background-color: var(--darkest);
+}
+
+.faq h1 , .faq h2{
+  color: var(--lightest-color);
+}
+
+.accordion{
+  background-color: var(--darkest);
+  color: var(--lightest-color);
 }
 
 footer{
