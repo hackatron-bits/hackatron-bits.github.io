@@ -759,6 +759,8 @@ img {
 
 .sponsors .card{
   border-color: #fffffb;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .faq{
